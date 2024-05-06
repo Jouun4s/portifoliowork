@@ -7,7 +7,7 @@ import { FooterComponent } from './footer/footer.component';
 @Component({
   selector: 'app-page-principal',
   standalone: true,
-  imports: [NavbarComponent, TextoComponent, ImagensComponent, FooterComponent],
+  imports: [NavbarComponent, TextoComponent,FooterComponent,ImagensComponent],
   templateUrl: './page-principal.component.html',
   styleUrl: './page-principal.component.scss'
 })
